@@ -3,16 +3,35 @@
   <title>Calculadora de Área de Rectángulo</title>
 </head>
 <body>
-  <h1>Calculadora de Área de Rectángulo</h1>
-  <label for="length">Ingresa la longitud: </label>
-  <input type="number" id="length"><br><br>
+    <section>
+        <h1>Calculadora de Área de Rectángulo</h1>
+        <label for="length">Ingresa la longitud: </label>
+        <input type="number" id="length"><br><br>
+      
+        <label for="width">Ingresa el ancho: </label>
+        <input type="number" id="width"><br><br>
+      
+        <button onclick="calculateArea()">Calcular Área</button><br><br>
+      
+        <p id="result"></p>
+        
+    </section>
+    <section>
+        <h1>Suma de monto total de articulos de supermercado</h1>
+        
+        <label for="grocery1">Ingresa la cantidad de alimentos 1: </label>
+        <input type="number" id="grocery1"><br><br>
+        
+        <label for="grocery2">Ingresa la cantidad de alimentos 2: </label>
+        <input type="number" id="grocery2"><br><br>
+        
+        <label for="grocery3">Ingresa la cantidad de alimentos 3: </label>
+        <input type="number" id="grocery3"><br><br>
 
-  <label for="width">Ingresa el ancho: </label>
-  <input type="number" id="width"><br><br>
+        <button onclick="groceryTracker()">Calcular Coste Total</button>
 
-  <button onclick="calculateArea()">Calcular Área</button><br><br>
-
-  <p id="result"></p>
+        <p id="result_grocery"></p>
+    </section>
 <script src="./calcular_area.js"></script>
 </body>
 </html>
