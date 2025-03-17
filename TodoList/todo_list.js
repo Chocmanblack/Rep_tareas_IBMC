@@ -35,10 +35,14 @@ document.addEventListener("DOMContentLoaded", () => {
         tasks = tasks.filter(task => !task.completed);
         displayTasks();
     }
+    function clearAllTasks() {
+        tasks = [];  
+        displayTasks();  
+    }
     
     addTaskBtn.addEventListener("click", addTask);
     clearCompletedBtn.addEventListener("click", clearCompletedTasks);
-    
+    clearAllTasksBtn.addEventListener("click", clearAllTasks);
     displayTasks();
 
 });
