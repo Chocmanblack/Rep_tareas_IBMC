@@ -1,6 +1,22 @@
 {
-  "titulo": "Descubrimiento de un exoplaneta habitable",
-  "subtitulo": "Astrónomos encuentran un mundo similar a la Tierra",
-  "noticia": "Científicos han identificado un exoplaneta en la zona habitable de su estrella, con posibles condiciones para la vida.",
-  "fecha": "2025-03-20"
+  "noticias": [
+    {
+      "titulo": "Nuevo avance en inteligencia artificial",
+      "subtitulo": "Un modelo revolucionario mejora la comprensión del lenguaje",
+      "news": "Investigadores han desarrollado un modelo de IA que mejora significativamente la interpretación del lenguaje natural.",
+      "fecha": "2025-03-20"
+    },
+    {
+      "titulo": "Descubrimiento de un exoplaneta habitable",
+      "subtitulo": "Astrónomos encuentran un mundo similar a la Tierra",
+      "news": "Científicos han identificado un exoplaneta en la zona habitable de su estrella, con posibles condiciones para la vida.",
+      "fecha": "2025-03-19"
+    },
+    {
+      "titulo": "Innovación en baterías para vehículos eléctricos",
+      "subtitulo": "Nueva tecnología promete mayor autonomía",
+      "news": "Un nuevo tipo de batería de carga rápida podría extender la autonomía de los autos eléctricos a más de 1000 km.",
+      "fecha": "2025-03-18"
+    }
+  ]
 }

@@ -1,5 +1,4 @@
 let xhr = new XMLHttpRequest();
-
 let url = './health_article.json';
 
 xhr.open('GET', url, true);
